@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    
+    font-family: poppins;
+}
+
+.imade span{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Viga' sans-serif;
+    margin: 3em 0em 1em;
+    font-weight: bold;
+    color: rgb(122, 122, 122);
+}
+
+.billions{
+    text-align: justify;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.millions{
+    margin-bottom: 7em;
+}
+
+.copy{
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(20, 4, 66);
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    bottom: 0;
+}
+
+@media screen and (max-width:1000px){
+    .billions{
+        width: 70%;
+    }
+
+    .millions{
+        margin-bottom: 7em;
+    }
+}

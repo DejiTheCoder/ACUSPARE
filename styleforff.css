@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-x: hidden;
+    /* font-family: Quicksand, sans-serif; */
+    background-color: #ddd;
+}
+
+
+header{
+    z-index: 22222222222222;
+}
+
+.content{
+    background-color: rgb(163, 52, 52);
+    background: url('images/door.jpg') no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.content-p{
+    background: url('images/bg2.jpeg');
+    background-size: cover;
+}
+
+.content-e{
+    background: url('images/bg3.jpeg');
+    background-size: cover;
+}
+
+.content-h{
+    background: url('images/bg6.jpeg');
+    background-size: cover;
+}
+
+.content span{
+    color: #fff;
+    background-color: rgba(44, 37, 37, 0.836);
+    text-align: center;
+    margin: 1.5em;
+    font-size: 2em;
+    margin: 0 auto;
+    margin-top: 5em;
+    font-family: 'Quicksand', sans-serif;
+    padding: .5em;
+    max-width: 500px;
+}
+
+.mainbody{
+    position: relative; 
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: justify; 
+    margin-top: 13em;   
+    font-family: poppins;
+}
+
+.mainbody p{
+    font-size: 1.5em;
+}
+
+.mainbody span{
+    font-size: 1em;
+}
+
+.copyright{
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(20, 4, 66);
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10em;
+}
+
+.vee{
+    font-weight: bold;
+    color: rgb(20, 4, 66);
+    font-size: 15em;
+    font-family: poppins;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(52, 52, 105);
+    height: 100%;
+    display: flex;
+    z-index: 9997;
+    /* opacity: 0.94; */
+    color: #ccc;
+    font-size: 1.3em;
+    transform: scaleY(0);
+    transform-origin: top;
+    font-family: ubuntu;
+}
